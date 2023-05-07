@@ -23,20 +23,19 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "workbench.startupEditor": "none",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "editor.minimap.enabled": false,
   "editor.accessibilitySupport": "off",
-  "workbench.iconTheme": "material-icon-theme",
   "git.openRepositoryInParentFolders": "never",
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontLigatures": false,
-  "workbench.colorTheme": "Cyber '77",
   "terminal.integrated.fontFamily": "JetBrains Mono",
-  "settingsSync.ignoredExtensions": ["hoovercj.vscode-power-mode"],
+  "settingsSync.ignoredExtensions": [
+    "hoovercj.vscode-power-mode",
+    "styled-components.vscode-styled-components"
+  ],
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
@@ -47,14 +46,17 @@
       "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
       "backgroundColor": "rgba(0,0,0,.2)"
       //other styling properties goes here ...
-    },
-    {
-      "text": "DEBUG:",
-      "color": "green",
-      "border": "1px solid green",
-      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
-      "backgroundColor": "#FFF"
-      //other styling properties goes here ...
     }
-  ]
+  ],
+  "reactSnippets.settings.importReactOnTop": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "workbench.colorTheme": "Monokai Vibrant",
+  "workbench.iconTheme": "emoji-file-icons"
 }
