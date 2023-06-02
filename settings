@@ -36,18 +36,6 @@
     "hoovercj.vscode-power-mode",
     "styled-components.vscode-styled-components"
   ],
-  "todohighlight.isEnable": true,
-  "todohighlight.isCaseSensitive": true,
-  "todohighlight.keywords": [
-    {
-      "text": "TODO:",
-      "color": "red",
-      "border": "1px solid red",
-      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
-      "backgroundColor": "rgba(0,0,0,.2)"
-      //other styling properties goes here ...
-    }
-  ],
   "reactSnippets.settings.importReactOnTop": false,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
